@@ -10,18 +10,18 @@ body {
     background-color: #fff1d0;
 }
 
-header {
-    margin: 10px;
-    background-color: lightblue;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #2525253d;
-}
-
 
 main {
     background-color: #fff1d0;
     margin: 10px;
     border-radius: 5px;
+}
+
+header {
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #2525253d;
 }
 
 h1,
@@ -51,14 +51,15 @@ p {
 .logo img {
     padding: 20px;
     display: block;
-    margin: auto;
+    margin: auto;    
     height: 100px;
     width: 100px;
 }
 
 .topnav {
-    background-color: lightblue;
+    background-color: transparent;
     overflow: hidden;
+    
 }
 
 .topnav a {
@@ -77,6 +78,7 @@ p {
 .topnav a:hover {
     background-color: #f0c808d0;
     color: #fff1d0;
+    margin-left: 2px;
     border-radius: 3px;
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px #2525253f;
@@ -84,7 +86,7 @@ p {
 }
 
 .topnav a.active {
-    background-color: lightblue;
+    background-color: transparent;
     color: #fff1d0;
     font-size: 17px;
 }
@@ -93,6 +95,8 @@ p {
     background-color: #f0c908d0;
     color: #fff1d0;
     border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 2px;
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px #2525253f;
     transition: transform .5s, border 1s;
@@ -484,12 +488,12 @@ footer {
     color: #fff1d0;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 2px 2px 5px #2525253d;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 
 footer>p {
