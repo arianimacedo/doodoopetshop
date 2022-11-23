@@ -28,7 +28,58 @@
       </nav>
     </header>
     
-    <main>
+    <main class="limite">
+
+      <article>
+        <h1>Contato</h1>
+        <p>Tem perguntas, comentários, sugestões ou pedidos especiais? Será um prazer te atender, então entre em contato conosco através do nosso formulário:</p>
+      </article>
+      <article class="formulario">
+              
+        <div class="desktop"><img src="imagens/dash-cat.jpg" alt="Daschound com Gatinho"></div>        
+
+        <form id="my-form" action="https://formspree.io/f/xrgdyjjz" method="post">
+
+          <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+          </p>
+
+          <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+
+          <p>
+            <label for="telefone">Telefone:</label>
+            <input type="tell" name="telefone" id="telefone" required>
+          </p>
+
+          <p>
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto">
+              <option value="">Selecione</option>
+              <option>Dúvidas</option>
+              <option>Reclamações</option>
+              <option>Elogios</option>
+              <option>Sugestões</option>
+              <option>Outros</option>
+            </select>
+          </p>
+          
+          <p>
+            <label for="mensagem">Mensagem:</label> <br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Enviar</button>
+          </p>
+          
+          <p id="my-form-status"></p>    
+        </form>
+      </article>
+
   
     </main>
 

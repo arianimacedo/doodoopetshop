@@ -8,6 +8,7 @@
 
 body {
     background-color: #fff1d0;
+    margin: auto;
 }
 
 
@@ -239,7 +240,7 @@ figcaption a {
 .filme,
 .redes,
 .mapa,
-.texto-espaco {
+.texto-espaco, p {
     padding: 10px;
     margin: auto;
     max-width: 860px;
@@ -477,9 +478,87 @@ td:first-child {
     }
 }
 
+.formulario {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+   
+        
+}
+
+.desktop {
+    
+        display: inline-block;
+        margin: auto;
+        padding: 10px;
+        width: 340px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.349);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+    }
 
 
 
+.desktop img {
+   width: 320px;
+}
+
+form {
+
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+    
+    
+       
+
+
+#my-form {
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+#nome, #email, #telefone, #assunto, #mensagem {
+    width: 100%;
+    border: none;
+    height: 30px;
+    box-shadow: #086788 0 0 3px;
+    margin-bottom: 5px;
+    margin: 5px;
+    
+}
+
+#mensagem {
+    height: auto;
+    width: 100%;
+    
+}
+
+button {
+    border: none;
+    background-color: #086788;
+    color: #fff1d0;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+button:hover, button:focus {
+    background-color: #f7A156;
+
+}
 
 footer {
     bottom: 0;
@@ -627,6 +706,11 @@ footer>p {
         font-size: 1em;
         padding: 0.5em;
     }
+
+    .desktop {
+        display: none;
+    }
+    
 }
 
 
